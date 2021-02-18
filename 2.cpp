@@ -5,8 +5,6 @@ using namespace std;
 #define raz  int *mas = &array[2][0]; \
 cout << *mas << endl;
 
-#define val  sizeof (*array);
-
 int main()
 {
    int array[3][3];
@@ -20,6 +18,5 @@ int main()
                cout << endl;
     }
    raz  
-   cout << val
    return 0;
 }
